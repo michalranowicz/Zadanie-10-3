@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+.carousel-container {
+  display: inline-flex;
+}
+#carousel {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  height: 267px;
+  ul {
+    width: 2000px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      width: 400px;
+      text-align: center;
+      height: 267px;
+      list-style: none;
+      float: left;
+    }
+  }
+}
+#directions {
+  text-align: center;
+}
+
+#left-button,
+#right-button {
+  display: inline-block;
+  cursor: pointer;
+  margin: 10px;
+}
