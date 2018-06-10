@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Eventy jQuery</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
     <div class="carousel-container row">
-        <div>
-            <h4 class="col-3" id="left-button">Left</h4>
+        <div class="col-3 button-left">
+            <i class="fas fa-angle-left" id="left-button">
+                <a href="#"></a>
+            </i>
         </div>
-        <div class="col-6" id="carousel">
+        <div class="col-6 carousel-photos" id="carousel">
 
             <ul>
                 <li>
@@ -37,11 +39,11 @@
             </ul>
 
         </div>
-        <div class="col-3" id="directions">
-            <h4 id="right-button">Right</h4>
+        <div class="col-3 button-right">
+            <i class="fas fa-angle-right" id="right-button"></i>
         </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 
